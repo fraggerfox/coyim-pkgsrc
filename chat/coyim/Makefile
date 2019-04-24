@@ -8,7 +8,7 @@ EXTRACT_USING=	bsdtar
 
 MAINTAINER=	fox@NetBSD.org
 HOMEPAGE=	https://coy.im/
-COMMENT=	A safe and secure by default chat client
+COMMENT=	Safe and secure by default chat client
 LICENSE=	gnu-gpl-v3
 
 USE_TOOLS+=	pkg-config gmake
