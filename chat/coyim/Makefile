@@ -6,7 +6,7 @@ CATEGORIES=	chat
 GITHUB_TAG=	v${PKGVERSION_NOREV}
 EXTRACT_USING=	bsdtar
 
-MAINTAINER=	fox@NetBSD.org
+MAINTAINER=	support@coy.im
 HOMEPAGE=	https://coy.im/
 COMMENT=	Safe and secure by default chat client
 LICENSE=	gnu-gpl-v3
