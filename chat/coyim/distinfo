@@ -1,4 +1,4 @@
-$NetBSD: distinfo,v 1.3 2019/01/18 22:21:02 bsiegert Exp $
+$NetBSD: distinfo,v 1.1 2019/04/24 23:43:22 fox Exp $
 
 SHA1 (coyim-0.3.11.tar.gz) = 3928e9954f516a7725982390fdb7ceef0659ec0a
 RMD160 (coyim-0.3.11.tar.gz) = 32b3e81e808951faacc63efaa19ba0d0d5318a93
