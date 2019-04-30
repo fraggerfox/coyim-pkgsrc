@@ -1,7 +1,7 @@
 coyim-pkgsrc
 ============
 
-NetBSD pkgsrc script for CoyIM.
+NetBSD [pkgsrc][5] script for CoyIM.
 
 You can find CoyIM [here][1]
 
@@ -45,3 +45,4 @@ BSD 2-clause. See LICENSE.
 [2]: https://github.com/coyim/coyim
 [3]: https://github.com/orgs/coyim/people
 [4]: https://autonomia.digital/
+[5]: http://pkgsrc.se/chat/coyim
