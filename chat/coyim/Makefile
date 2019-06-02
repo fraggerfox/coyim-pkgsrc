@@ -34,12 +34,6 @@ INSTALLATION_DIRS+=	share/applications share/pixmaps
 
 REPLACE_SH+=		gen_version_file.sh
 
-SUBST_CLASSES+=			gen-version-file
-SUBST_STAGE.gen-version-file=	pre-build
-SUBST_MESSAGE.gen-version-file=	Generate the correct version file
-SUBST_FILES.gen-version-file=	${COYIM_VERSION_FILE}
-SUBST_SED.gen-version-file=	-e 's|version_generated.go|${WRKSRC}/version_generated.go|'
-
 SUBST_CLASSES+=			desktop-entry
 SUBST_STAGE.desktop-entry=	post-build
 SUBST_MESSAGE.desktop-entry=	Create desktop entry.
@@ -52,7 +46,7 @@ SUBST_SED.desktop-entry+=	-e '/^$$/d'
 CHECK_RELRO_SKIP=	bin/coyim
 
 pre-build:
-	${COYIM_VERSION_FILE} ${GITHUB_TAG}
+	${RUN} cd ${WRKSRC} && ${COYIM_VERSION_FILE} ${GITHUB_TAG}
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKDIR}/bin/coyim ${DESTDIR}${PREFIX}/bin
