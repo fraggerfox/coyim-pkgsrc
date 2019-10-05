@@ -31,8 +31,7 @@ Credits
 
 * The CoyIM is developed and maintained by the [CoyIM Team][3]
 * Thanks to `@ppaeps` for a machine to do and test the package development.
-* Thanks to `@claucece` for improving the documentation and providing a proper
-  `MAINTAINER` mail.
+* Thanks to `@claucece` for improving the documentation.
 * Thanks to `leot@` and `@coypoop` for reviewing the package in detail.
 * This work has been partially sponsored by [CAD][4]
 
